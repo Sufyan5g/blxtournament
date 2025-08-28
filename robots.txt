@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.blxtournaments.com/sitemap.xml
+Sitemap: https://www.blxtournaments.netlify.app/sitemap.xml
