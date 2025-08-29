@@ -79,6 +79,21 @@
             margin-bottom: 30px;
             color: #555;
         }
+        .rating {
+            margin-bottom: 20px;
+            color: #f39c12; /* Star color */
+            font-size: 1.5em;
+        }
+        .rating .stars {
+            display: inline-block;
+            letter-spacing: 2px;
+        }
+        .rating .text {
+            font-size: 0.8em;
+            color: #777;
+            margin-left: 10px;
+            font-weight: bold;
+        }
         .button-group {
             display: flex;
             flex-direction: column;
@@ -109,6 +124,12 @@
         .button.secondary:hover {
             background: linear-gradient(45deg, #00c6ff, #2b7ffc);
         }
+        .button.whatsapp {
+            background: linear-gradient(45deg, #25D366, #128C7E); /* WhatsApp green gradient */
+        }
+        .button.whatsapp:hover {
+            background: linear-gradient(45deg, #128C7E, #25D366);
+        }
         footer {
             margin-top: 40px;
             font-size: 0.9em;
@@ -137,9 +158,15 @@
         <h1>BLX TOURNAMENTS - Play Free Fire </h1>
         <p>Aapki Free Fire Tournaments ki ultimate destination! Participate karein, jeetein aur banayein apni pehchaan. Join the best online gaming community now!</p>
 
+        <div class="rating">
+            <span class="stars">★★★★★</span>
+            <span class="text">4.9/5 based on 1.2K+ reviews</span>
+        </div>
+
         <div class="button-group">
             <a href="https://blxtournaments.rf.gd" target="_blank" class="button">Hamari Website Par Jayen</a>
             <a href="app/blx-app.apk" class="button secondary" download>App Download Karein</a>
+            <a href="https://whatsapp.com/channel/0029VbBZXbpL2ATzMlIxMz1s" target="_blank" class="button whatsapp">WhatsApp Channel Join Karein</a>
         </div>
 
         <footer>
@@ -148,4 +175,4 @@
         </footer>
     </div>
 </body>
-    </html>
+  </html>
