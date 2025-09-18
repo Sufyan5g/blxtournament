@@ -110,12 +110,18 @@
             transition: all 0.3s ease;
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             color: #fff;
-            background: linear-gradient(45deg, #ff416c, #ff4b2b); /* Bright gradient */
             border: none;
         }
         .button:hover {
             transform: translateY(-3px);
             box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Button Colors and Gradients */
+        .button.primary {
+            background: linear-gradient(45deg, #ff416c, #ff4b2b); /* Bright gradient */
+        }
+        .button.primary:hover {
             background: linear-gradient(45deg, #ff4b2b, #ff416c);
         }
         .button.secondary {
@@ -130,6 +136,19 @@
         .button.whatsapp:hover {
             background: linear-gradient(45deg, #128C7E, #25D366);
         }
+        .button.diamonds-app {
+            background: linear-gradient(45deg, #a80077, #66107a); /* Purple gradient for app */
+        }
+        .button.diamonds-app:hover {
+            background: linear-gradient(45deg, #66107a, #a80077);
+        }
+        .button.diamonds-website {
+            background: linear-gradient(45deg, #e3bc1d, #f1a500); /* Gold gradient for website */
+        }
+        .button.diamonds-website:hover {
+            background: linear-gradient(45deg, #f1a500, #e3bc1d);
+        }
+
         footer {
             margin-top: 40px;
             font-size: 0.9em;
@@ -164,9 +183,11 @@
         </div>
 
         <div class="button-group">
-            <a href="https://blxtournaments.gamer.gd" target="_blank" class="button">Hamari Website Par Jayen</a>
-            <a href="app/blx-app.apk" class="button secondary" download>App Download Karein</a>
+            <a href="https://blxtournaments.rf.gd" target="_blank" class="button primary">Hamari Website Par Jayen</a>
+            <a href="app/blx-app.apk" class="button secondary" download>BLX Arena App Download Karein</a>
             <a href="https://whatsapp.com/channel/0029VbBZXbpL2ATzMlIxMz1s" target="_blank" class="button whatsapp">WhatsApp Channel Join Karein</a>
+            <a href="app/BLxArena.apk" class="button diamonds-app" download>Free Diamonds & UC App Download </a>
+            <a href="https://blxarena.gamer.gd" target="_blank" class="button diamonds-website">Free Diamonds & UC Website</a>
         </div>
 
         <footer>
@@ -175,4 +196,4 @@
         </footer>
     </div>
 </body>
-</html>
+  </html>
